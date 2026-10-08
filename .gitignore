@@ -1,0 +1,8 @@
+node_modules/
+dist/
+data/
+output/
+.env
+*.sqlite*
+playwright-report/
+test-results/

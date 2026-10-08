@@ -1,0 +1,36 @@
+{
+  "name": "signalos-developer-experience-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Inspectable developer experience, from API contract to safe payment recovery and agent approval",
+  "author": "Amy Villa <amyv.dev@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "node apps/api/main.ts",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:e2e": "node e2e/verify.ts",
+    "report": "node scripts/report.ts",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "vite": "7.3.7",
+    "typescript": "5.9.3",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "playwright": "1.62.1"
+  }
+}
