@@ -1,3 +1,16 @@
+# SignalOS — Full-Stack Developer Experience & Workflow Reliability Platform
+**Stack:** TypeScript • React • Node.js (Node 24) • SQLite • Zod • Playwright • Vitest
+
+### Architectural Overview
+**SignalOS** unifies four specialized operational and developer-experience subsystems into a cohesive full-stack architecture focused on deterministic state transitions, human-in-the-loop (HITL) AI execution boundaries, and verifiable browser workflows:
+1. **MailTrace DX Lab:** Event-driven webhook ingestion engine handling malformed JSON, duplicate deliveries, and out-of-order event reconciliation.
+2. **ClearRoute API:** Role-bounded REST API enforcing strict Zod schema validation, explicit state-transition matrices, predictable error contracts, and immutable audit trails.
+3. **ForgeFlow AI Automation:** Human-in-the-loop (HITL) agentic execution engine with explicit approval checkpoints, deterministic fallback states, and persisted run ledgers.
+4. **AccessPath Console:** QA-focused operator interface featuring real-time recovery telemetry and WCAG-compliant accessibility verification.
+
+
+---
+
 # SignalOS — Developer Experience Reliability
 
 [![Verify SignalOS](https://github.com/Amyvdev1/signalos-developer-experience-platform/actions/workflows/verify.yml/badge.svg)](https://github.com/Amyvdev1/signalos-developer-experience-platform/actions/workflows/verify.yml)
